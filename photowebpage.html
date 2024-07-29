@@ -1,0 +1,528 @@
+<head>
+    <style>
+        nav{
+    background-image: url(./images/bg.webp);
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    align-items:top;
+    justify-content: space-around;
+    width: 1250px;
+    height: 550px;
+        }
+
+        ul{
+            gap: 30px;
+            font-family: sans-serif;
+            font-size: large;
+            text-transform: capitalize;
+            font-style: oblique;
+            font-weight: bold;
+            color: rgb(239, 241, 243);
+            list-style: none;
+            display: flex;
+        }
+
+        .link{
+            gap: 30px;
+            display: flex;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            gap: 50px;
+            font-size: large;
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+        a.hover{
+            cursor: pointer;
+           
+        }
+        .text{
+    text-align: center;
+    width: 50%;
+    margin-left: 26%;
+    font-family: 'Times New Roman';
+    font-size: large;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-top: 4%;
+        }
+        .logo{
+        padding-left: 44%;
+        margin-top:5%;
+        }
+        .portfolio{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 8%;
+    width: 100%;
+ 
+        }
+        .a{
+    background-image: url(./images/forest.jpg);
+    background-size: cover;
+    background-position: center;
+    width:300px;
+    height: 450px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+        }
+        .b{
+    background-image: url(./images/sunset.jpg);
+    background-size: cover;
+    background-position: center;
+    width:300px;
+    height: 450px;
+    text-align: center;
+    color:black;
+    font-size: larger;
+        }
+        .c{
+    background-image: url(./images/sky.jpg);
+    background-size: cover;
+    width:300px;
+    height: 450px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    
+        }
+        .all{
+    display: flex;
+    grid-template-columns: auto auto auto;
+    gap:50px;
+    width: 100%;
+    
+    justify-content: space-around;
+    
+        }
+
+        .f{
+        text-align: center;
+        letter-spacing: 1px;
+        font-family: sans-serif;
+        font-size: medium;
+        }
+        .g{
+        text-align: center;
+        justify-content: center;
+        letter-spacing: 1px;
+        font-family: 'Times New Roman';
+        font-size:large;
+        width: 50%;
+        font-weight: lighter;
+        
+        }
+        .h{
+            display: flex;
+            letter-spacing: 1px;     
+            gap: 50px;   
+            width: 65%;      
+        }
+        .forbg{
+            background-image: url(./images/bgcontent.jpeg);
+            background-size:cover;
+            background-position: center;
+            width: 100%;
+            height:70%;
+            margin-top: 60px;
+            color: white;
+            padding-top: 50px
+        }
+        p{
+            font-family: calibri;
+            font-weight: normal;
+            font-size: large;
+        }
+        h2{
+            font-family: sans-serif;
+        }
+        .sec1{
+            align-items: center;
+            margin-top: 50px;
+        }
+        .cont{
+            
+            font-style: oblique;
+            letter-spacing: 1px;
+            width: 50%; 
+        }
+        .e{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 8%;
+        }
+        .pics{
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+    padding:3%;
+    row-gap: 50px;
+    justify-items: center;
+    
+   
+        }
+        .btn{
+            padding-inline: 10px;
+            padding-block: 11px;
+            background-color: black;
+            color: white;
+            border-radius: 3px;
+            margin-left: 45%;
+            font-size: larger;
+            cursor: pointer;
+        }
+        .bg1{
+            background-image: url(./images/bgbg1.jpg);
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            margin-top: 10%;
+            color: white;
+        }
+        .rbtn{
+            padding-block: 7px;
+            padding-inline: 10px;
+            border-radius: 3px;
+            margin-left: 325px;
+            cursor: pointer;
+            background-image: url(./images/bgbtn1.jpg);
+            border: solid 2px white;
+            color: white;
+           
+            
+        }
+        button{
+            font-family: 'sans-serif';
+            font-weight: bolder;
+            font-size: large;
+
+        }
+        .para{
+            width: 50%;
+            margin-top: 3% ;
+            padding-left:6% ;
+            
+            text-align: center;
+            line-height: 30px;
+            font-size: larger;
+            font-weight: lighter;    
+        p{
+            font-family: Arial;
+        }
+        }
+        .img1{
+            display:flex;
+            gap: 10px;
+            padding-inline: 5px;
+            margin-top: 4%;
+        
+        }
+        .insta{
+            text-align: center;
+            text-transform: uppercase;
+            font-style: oblique;
+            margin-top: 4%;
+        }
+
+        .end{
+            display: flex;
+            padding-right: 10%;
+            padding-left: 10%;
+            gap: 20%;
+            height: 100px;
+            width: 80%;
+            font-weight: lighter;
+            margin-top: 8%;
+        }
+        .e1{
+            display: grid;
+            grid-template-columns: auto auto;
+            width: 60%;
+            text-transform: uppercase;
+            column-gap: 20px;
+            padding-right: 50px;
+            border-right: solid 3px;
+            height: 200%;
+            font-family: arial;
+            font-weight: 500;
+
+            
+        }
+        .hed{
+           width: 100%;
+            text-align: center;
+           justify-content: center;
+           
+        }
+        .head{
+            padding-left: 10px;
+            border-left: solid 3px;
+            height: 200%;
+            text-align: center;
+            
+        }
+        .e2{
+            margin-top: 10px;
+            padding-left: 2px;
+            padding-right: 1px;
+            align-items: center;
+            row-gap: 20px;
+        }
+        
+        .cr{
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin-top: 10%;
+        }
+    </style>
+</head>
+<body>
+    <!-------navbar section1-->
+    <div>
+        
+            
+    
+        <nav>
+                <h2 style="font-style: oblique; font-family: Times New Roman ; color: rgb(226, 226, 81); padding-left: 20px; display:inline-flex;">Kushi Photography</h2>
+                <ul class="link">
+                <a href="./photowebpage.html">Home</a>
+                <a href="./aboutus.html">About Us</a>
+                <a href="./services.html">Services</a> 
+                <a href="./gallery.html">Gallery</a>
+                <a href="./exhibition.html">Exhibitions</a>
+                <a href="./contactus.html">Contact Us</a>
+                </ul>
+        </nav>
+    </div>
+
+    <!------section2---center content-->
+    <div class="text">
+        <h2 >WE CAPTURE THE MOMENTS</h2>
+        <p>
+        At Capturer, we specialize in freezing those fleeting moments in time that hold immense significance for you.
+        With our passion for photography and keen eye for detail, we transform ordinary moments into extraordinary 
+        memories.
+        </p>
+
+        <p>
+        Whether it's a milestone event, a candid portrait, or the breathtaking beauty of nature, we strive to encapsulate 
+        the essence of every moment, ensuring that your cherished memories last a lifetime. Trust us to capture the
+        magic of your life's journey, one frame at a time.
+        </p>
+    </div>
+
+    <!---------section3 logo-->
+    <div class="logo">
+        <img  width=150px height="100px" src="./images/logo-dark.png">
+    </div>
+
+      <!-------section4 portfolio heading-->
+        <div class="portfolio"><h1>~PORTFOLIO~</h1></div>
+    <!-----section5 ----3pics-->
+    <div class="all">
+        <div class="a">
+            <h3>Forest</h3>
+        </div>
+        <div class="b">
+            <h3>Plants</h3>
+        </div>
+        <div class="c">
+            <h3>Sky</h3>
+        </div>
+    </div>
+
+    <!----------section6 ---bg with content---->
+    <div class="forbg">
+        <!------part-1 heading--->
+        <div class="f">
+            <h1>~ Services ~</h1>
+        </div>
+        <!------part-1--content-->
+        <center>
+        <div class="g">
+            <p>
+                 At Capturer, we offer a range of professional photography services tailored
+                 to meet your unique needs. With a commitment to excellence and 
+                 creativity, we strive to exceed your expectations, delivering captivating 
+                 visuals that tell your story with authenticity and passion.
+            </p>
+        </div>
+    
+        </center>
+        <!----------part-2 --3heading 3content-->
+    <center>
+        <div class="h">
+            <div>
+                <h2>Portrait session</h2>
+                <p>~</p>
+                <p>
+                    Our portrait sessions are designed to
+                    showcase your personality and style in 
+                    stunning imagery.
+                </p>
+            </div>
+        
+            <div>
+                <h2>Maternity Sessions</h2>
+                <p>~</p>
+                <p>
+                    Embrace the beauty and miracle of new life with our maternity and newborn photography sessions.
+                </p>
+            </div>
+        
+            <div>
+                <h2>Family Sessions</h2>
+                <p>~</p>
+                <p>
+                    Cherish the bond of family with our custom-designed playful candid moments and portrait sessions.
+                </p>
+            </div>
+        </div>
+    
+    </div>
+    
+    </center>
+
+    <!-----section-7 head img content h3-->
+    
+    <center>
+        <div class="sec1">
+        
+        <div> 
+            <h1>~ TESTIMONIALS ~</h1>
+        </div>
+        <div class="img">
+            <img width="100px"  height="120px"  src="./images/client-1.jpg" alt="">
+        </div>
+        <div class="cont">
+            <p>
+                Capturer exceeded all our expectaations! teir attenton to detailand ability to 
+                capture the essence of our special day was truly remarkable. Every time we
+                look at out wedding photos, we're transported back to those magical
+                moments. Thank you for preserving our memories so beautifully!
+            </p>
+        </div>
+        <div>
+            <h3>Ramesh and Radhika</h3>
+        </div>
+        </div>
+        </center>
+        
+         <!-------section-8- gallery head---->
+    <div class="e">
+        <h1>~ Gallery ~</h1>
+    </div>
+    <!------gallery 8 pics------>
+    <div class="pics">
+        <div>
+            <img width="250px"  height= "250px" src="./images/1">
+        </div>
+           <div>
+            <img width="250px"  height= "250px" src="./images/2.jpeg">
+           </div>
+           <div>
+            <img width="250px"  height= "250px" src="./images/mountain.jpg">
+           </div>
+           <div>
+            <img width="250px"  height= "250px" src="./images/lakes.jpg">
+           </div>
+           <div>
+            <img width="250px"  height= "250px" src="./images/14.jpg">
+           </div>
+           
+           <div>
+            <img width="250px"  height= "250px" src="./images/10.jpg">
+           </div>
+           
+           <div>
+            <img width="250px"  height= "250px" src="./images/15.jpg">
+           </div>
+            
+           <div>
+            <img width="250px"  height= "250px" src="./images/13.jpg">
+           </div>
+           </div>
+        <div >
+        <a href="./veiwgallery.html"><button class="btn">View Gallery</button></a>
+        </div>
+
+    <!------section-9 bg with content buton-->
+    <div class="bg1">
+        <div style="text-align: start; padding-left: 20%; padding-top: 20px;">
+            <h1>~ Latest Blog ~</h1>
+        </div>
+        <div style="text-align: start; padding-left: 13%; font-family: arial; ">
+            <h2>Capturing Emotion in Every Frame</h2>
+        </div>
+        <div class="para">
+            <p>
+                This blog post delves into the importance of storytelling in photography and how Capturer approaches capturing emotion and narrative in their work. Readers will discover the techniques and strategies used by professional photographers to evoke emotion, convey meaning, and create compelling visual narratives that resonate with viewers on a deep level.
+            </p>
+        </div>
+
+        <button class="rbtn">Read More</button>
+    </div>
+
+    <!-----section-10 insta  head-->
+    <div class="insta">
+        <h1 >~ Instagram ~</h1>
+    </div>
+<!-------sec-10 imgs-->
+    <div class="img1">
+            <img width="150px" height="150px" src="./images/12.jpg">
+            <img width="150px" height="150px" src="./images/16.jpg">
+            <img width="150px" height="150px" src="./images/20.jpg">
+            <img width="150px" height="150px" src="./images/frnds.jpg">
+            <img width="150px" height="150px" src="./images/Kushii.jpg">
+            <img width="150px" height="150px" src="./images/11.jpg">
+            <img width="150px" height="150px" src="./images/19.jpg">
+            <img width="150px" height="150px" src="./images/17.jpg">
+           
+        </div>
+
+         <!--------section-11 3 parts-->
+         <div class="end">
+            <div class="e1">
+                <p>Home</p>
+                <p>About us</p>
+                <p>services</p>
+                <p>client</p>
+                <p>blog</p>
+                <p>contact us</p>
+    
+            </div>
+            <div class="e2">
+                <img width=160px height="120px"  src="./images/logo-dark.png" alt="">
+                <img width="150px" height="60px" src="./images/social media.png" alt="">
+            </div>
+            <div class="head">
+               <div class="hed">
+                <h3 >Stay in touch</h3>
+               </div>
+               <div class="e3">
+                <P>Keep up-to-date with all things 
+                Capturer! Join our community and
+                never miss a moment!</p>
+               </div>
+            </div>
+    
+           </div>
+    <!---------section-12  copyright-->
+           <div class="cr">
+            <p>Copyright © 2024 Web Design Mastery. All rights reserved.</p>
+           </div>
+    
+    </div>
+
+</body>
+<!--------
+ 
+    
+    
+    
+    
+    -->
